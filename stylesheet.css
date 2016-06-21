@@ -5,7 +5,14 @@
 	font-weight: normal;
 }
 
-.main {
+.full {
+	
+	background-color: #eeeeee;
+	width: 600px;
+	border-radius: 4px;
+	padding: 10px;
+	margin: auto auto auto auto;
+	box-shadow: 10px 10px 10px 10px #696969;
 	
 	
 }
@@ -13,39 +20,12 @@
 	font-family: Overpass, Helvetica, sans-serif;
 	font-size: x-large;
 	font-weight: bold;
-	background-color: #eeeeee;
-	width: 600px;
-	border-radius: 4px;
-	padding: 10px;
-	margin: auto auto auto auto;
 	text-align: center;
-	#box-shadow: -4px 0px 3px 1px #696969;
 	position: relative;
 	z-index: 20;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
+	
 }
 
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
-}
 h1{
 	font-family: Overpass,  Helvetica, sans-serif;
 	font-size: 50px;
@@ -70,12 +50,6 @@ h1{
 	font-family: Overpass,  Helvetica, sans-serif;
 	font-weight: light;
 	text-align: left;	
-	background: #eeeeee;
-	width: 600px;
-	border-radius: 4px;
-	padding: 10px;
-	margin: auto auto auto auto;
-	#box-shadow: 0 0 3px 1px #696969;
 	position: relative;
 	z-index: 5;
 }
