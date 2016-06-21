@@ -6,7 +6,7 @@
 }
 
 .main {
-	box-shadow: 10px 10px 10px 10px #eeeeee;
+	
 	
 }
 .content {
@@ -14,10 +14,14 @@
 	font-size: x-large;
 	font-weight: bold;
 	background-color: #eeeeee;
+	width: 600px;
 	border-radius: 4px;
 	padding: 10px;
 	margin: auto auto auto auto;
 	text-align: center;
+	#box-shadow: -4px 0px 3px 1px #696969;
+	position: relative;
+	z-index: 20;
 }
 .buttonStyle {
 	border-radius: 4px;
@@ -52,8 +56,8 @@ h1{
 }
 .list li{
 	
-	#list-style: none;
-	margin: 10px 10 10 10;
+	list-style: none;
+	margin: 10px 10px 10px 10px;
 	
 }
 
@@ -67,4 +71,11 @@ h1{
 	font-weight: light;
 	text-align: left;	
 	background: #eeeeee;
+	width: 600px;
+	border-radius: 4px;
+	padding: 10px;
+	margin: auto auto auto auto;
+	#box-shadow: 0 0 3px 1px #696969;
+	position: relative;
+	z-index: 5;
 }
