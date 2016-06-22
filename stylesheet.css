@@ -48,15 +48,19 @@ h1{
 	transition: background-color .30s ease 0s;
 }
 
-.list li div{
+.list li i{
 	
 	padding-right: 10px;
 }
+
+
 .bottom{
 	
-	font-family: Overpass,  Helvetica, sans-serif;
+	font-family: Overpass, Helvetica, sans-serif;
 	font-weight: light;
 	text-align: left;	
 	position: relative;
 	z-index: 5;
+	padding-top: 5px;
+	border-top: 1px dashed dimgrey;
 }
