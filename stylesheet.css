@@ -38,7 +38,14 @@ h1{
 	
 	list-style: none;
 	text-align: center;
+	padding:10px 0 0px 0;
+	border-bottom:1px solid white;
 	
+	
+}
+.list li:hover{
+	background-color: #d3d3d3;
+	transition: background-color .30s ease 0s;
 }
 
 .list li div{
